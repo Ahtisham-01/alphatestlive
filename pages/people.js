@@ -1,4 +1,5 @@
 // import PeopleHead from '@/components/thepeople'
+import dynamic from 'next/dynamic'
 const PeopleHead = dynamic(() => import("@/components/thepeople"), { ssr: false })
 import Head from 'next/head'
 import React from 'react'

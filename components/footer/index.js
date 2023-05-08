@@ -1,4 +1,4 @@
-import dynamic from 'next/dynamic'
+
 import React from 'react'
 
 // import { Fade } from "react-awesome-reveal"
