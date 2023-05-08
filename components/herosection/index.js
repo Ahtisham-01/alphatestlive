@@ -1,6 +1,8 @@
 import React from "react"
 // import { Fade } from "react-awesome-reveal"
-import { Swiper, SwiperSlide } from "swiper/react"
+// import { Swiper, SwiperSlide } from "swiper/react"
+const Swiper=dynamic(()=>import("swiper/react").then(res=>res),{ssr:false})
+const SwiperSlide=dynamic(()=>import("swiper/react").then(res=>res),{ssr:false})
 import { Autoplay } from "swiper"
 import "swiper/css"
 import dynamic from "next/dynamic"
