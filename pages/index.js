@@ -20,9 +20,9 @@ export default function Home() {
     <React.Fragment>
       <HeroSection />
       <MicroManagement />
-      {/* <Mediocrity />
+      <Mediocrity />
       <SavingTheWorld />
-      <Consultation /> */}
+      <Consultation />
     </React.Fragment>
   )
 }
