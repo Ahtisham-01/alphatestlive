@@ -3,16 +3,16 @@ import { Fade } from "react-awesome-reveal"
 
 const PartnersNotClients = () => {
     const [position, setPosition] = useState(null)
-    // const handleScroll = () => {
-    //     let scrollPosition = window.scrollY
-    //     setPosition(scrollPosition)
-    // }
-    // useEffect(() => {
-    //     window.addEventListener("scroll", handleScroll, { passive: true })
-    //     return () => {
-    //         window.removeEventListener("scroll", handleScroll)
-    //     }
-    // },[])
+    const handleScroll = () => {
+        let scrollPosition = window.scrollY
+        setPosition(scrollPosition)
+    }
+    useEffect(() => {
+        window.addEventListener("scroll", handleScroll, { passive: true })
+        return () => {
+            window.removeEventListener("scroll", handleScroll)
+        }
+    },[])
     return (
         <>
             <div className="sticky top-1 border-t-[1px] border-zinc-700 h-[170vh]">
