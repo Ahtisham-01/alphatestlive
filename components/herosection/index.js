@@ -1,12 +1,12 @@
 import React from "react"
-import { Fade } from "react-awesome-reveal"
-import { Swiper, SwiperSlide } from "swiper/react"
-// const Swiper=dynamic(()=>import("swiper/react").then(res=>res),{ssr:false})
+import dynamic from "next/dynamic"
+// import { Fade } from "react-awesome-reveal"
+// import { Swiper, SwiperSlide } from "swiper/react"
+const {Swiper,SwiperSlide}=dynamic(()=>import("swiper/react").then(res=>res),{ssr:false})
 // const SwiperSlide=dynamic(()=>import("swiper/react").then(res=>res),{ssr:false})
 import { Autoplay } from "swiper"
 import "swiper/css"
-import dynamic from "next/dynamic"
-// const Fade =dynamic(()=>import("react-awesome-reveal").then(res=>res),{ssr:false})
+const {Fade} =dynamic(()=>import("react-awesome-reveal").then(res=>res),{ssr:false})
 const HeroSection = () => {
     return (
         <>
