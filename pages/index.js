@@ -1,6 +1,10 @@
 
 import { Inter } from 'next/font/google'
-import HeroSection from '@/components/herosection'
+import dynamic from "next/dynamic"
+const HeroSection = dynamic(() => import('@/components/herosection'), {
+  ssr: false,
+});
+// import HeroSection from '@/components/herosection'
 import MicroManagement from '@/components/micromanagement'
 import React from 'react'
 import Mediocrity from '@/components/mediocrity'
@@ -16,7 +20,7 @@ export default function Home() {
       <Mediocrity />
       {/* <Mediocrity />
       {/* <SavingTheWorld />
-      <Consultation/> */} 
+      <Consultation/> */}
     </React.Fragment>
   )
 }

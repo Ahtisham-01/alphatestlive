@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react"  
 // import { Fade } from "react-awesome-reveal"
 import dynamic from "next/dynamic"
 // const Swiper=dynamic(()=>import("swiper/react").then(res=>res.Swiper),{ssr:false})
