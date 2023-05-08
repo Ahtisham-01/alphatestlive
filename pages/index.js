@@ -14,8 +14,8 @@ export default function Home() {
       <HeroSection />
       <MicroManagement />
       {/* {/* <Mediocrity /> */}
-      <SavingTheWorld />
-      <Consultation/> */}
+      {/* <SavingTheWorld />
+      <Consultation/> */} 
     </React.Fragment>
   )
 }
