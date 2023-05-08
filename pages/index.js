@@ -12,8 +12,8 @@ export default function Home() {
   return (
     <React.Fragment>
       <HeroSection />
-      {/* <MicroManagement />
-      <Mediocrity />
+      <MicroManagement />
+      {/* <Mediocrity />
       <SavingTheWorld />
       <Consultation/> */}
     </React.Fragment>
