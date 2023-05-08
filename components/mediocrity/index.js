@@ -1,7 +1,6 @@
-import React, { useState } from "react"
+import React from "react"
 const Mediocrity = () => {
     const initialText = "Go Alpha"
-    const [name, setName] = useState(initialText)
     return (
         <>
             <div className="bg-black py-[147px] flex flex-col h-[790px] justify-between border-t border-zinc-700">
