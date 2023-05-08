@@ -1,5 +1,8 @@
+import dynamic from "next/dynamic"
 import React from "react"
-import { Fade } from "react-awesome-reveal"
+const Fade =dynamic(()=>import("react-awesome-reveal").then(res=>res),{ssr:false})
+
+// import { Fade } from "react-awesome-reveal"
 const MicroManagement = () => {
     return (
         <>
