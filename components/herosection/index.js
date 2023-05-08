@@ -6,7 +6,7 @@ const Swiper=dynamic(()=>import("swiper/react").then(res=>res.Swiper),{ssr:false
 const SwiperSlide=dynamic(()=>import("swiper/react").then(res=>res.SwiperSlide),{ssr:false})
 import { Autoplay } from "swiper"
 import "swiper/css"
-const Fade =dynamic(()=>import("react-awesome-reveal").then(res=>res),{ssr:false})
+const Fade =dynamic(()=>import("react-awesome-reveal").then(res=>res.Fade),{ssr:false})
 const HeroSection = () => {
     return (
         <>
