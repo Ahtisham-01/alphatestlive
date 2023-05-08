@@ -12,10 +12,10 @@ export default function Home() {
   return (
     <React.Fragment>
       <HeroSection />
-      <MicroManagement />
+      {/* <MicroManagement />
       <Mediocrity />
       <SavingTheWorld />
-      <Consultation/>
+      <Consultation/> */}
     </React.Fragment>
   )
 }

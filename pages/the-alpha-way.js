@@ -14,8 +14,8 @@ export default function Home() {
                     content="initial-scale=1.0, width=device-width"
                 />
             </Head>
-            {/* <AlphaWayHeader />
-            <PartnersNotClients /> */}
+            <AlphaWayHeader />
+            <PartnersNotClients />
         </>
     )
 }
