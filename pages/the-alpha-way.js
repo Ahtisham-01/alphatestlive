@@ -1,7 +1,8 @@
 // import AlphaWayHeader from "@/components/alphaway"
 import dynamic from "next/dynamic"
 const AlphaWayHeader =dynamic(() => import("@/components/alphaway"), { ssr: false })
-import PartnersNotClients from "@/components/alphaway/PartnersNotClients"
+const PartnersNotClients =dynamic(() => import("@/components/alphaway/PartnersNotClients"), { ssr: false })
+// import PartnersNotClients from "@/components/alphaway/PartnersNotClients"
 import Head from "next/head"
 export default function Home() {
     return (
