@@ -15,12 +15,11 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <React.Fragment>
-      {/* <HeroSection />
+      <HeroSection />
       <MicroManagement />
-      <Mediocrity /> */}
-      {/* <Mediocrity />
-      {/* <SavingTheWorld />
-      <Consultation/> */}
+      <Mediocrity />
+      <SavingTheWorld />
+      <Consultation />
     </React.Fragment>
   )
 }
