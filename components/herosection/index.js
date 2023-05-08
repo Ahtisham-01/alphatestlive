@@ -21,6 +21,7 @@ const HeroSection = () => {
                         <h2 className=" font-Antonio font-extralight text-zinc-400 text-center text-3xl leading-9 tracking-[-0.03em]">
                             BIG OR SMALL
                         </h2>
+                        
 
                         <h2 className="text-white text-center font-Antonio font-bold text-[48px] leading-[67.2px] tracking-[-0.03em] ">
                             THE GREAT NEVER SETTLE FOR GOOD.
