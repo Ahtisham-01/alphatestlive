@@ -29,7 +29,7 @@ const HeroSection = () => {
                 </div>
                 <div className="flex flex-col">
                     <Swiper
-                        className="swiper-slide "
+                        className="swiper-slide"
                         modules={[Autoplay]}
                         autoplay={{ delay: 3000 }}
                         loop={{ delay: 1500 }}
