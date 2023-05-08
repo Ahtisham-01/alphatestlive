@@ -4,8 +4,11 @@ import dynamic from "next/dynamic"
 const HeroSection = dynamic(() => import('@/components/herosection'), {
   ssr: false,
 });
+const MicroManagement = dynamic(() => import('@/components/micromanagement'), {
+  ssr: false,
+});
 // import HeroSection from '@/components/herosection'
-import MicroManagement from '@/components/micromanagement'
+// import MicroManagement from '@/components/micromanagement'
 import React from 'react'
 import Mediocrity from '@/components/mediocrity'
 import SavingTheWorld from '@/components/SavingTheWorld'
